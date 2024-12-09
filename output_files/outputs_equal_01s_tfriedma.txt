@@ -34,5 +34,6 @@ Input String: 001101010001111111100000111000101010101010101010110000000111110101
 Reject!
 Depth of tree: 3841
 Number of transitions simulated: 5705
+Average non-determinism per state: 1.4852902889872428
 
 -------------------------------------------------------
