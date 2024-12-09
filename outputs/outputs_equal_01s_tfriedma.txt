@@ -1,0 +1,38 @@
+// outputs copied from the terminal with the print state flag set as false
+
+-------------------------------------------------------
+
+Machine: {w | w has the same number of 0's and 1's} Nondeterministic
+Input String: 0011
+Accept!
+Depth of tree: 15
+Number of transitions simulated: 21
+Average non-determinism per state: 1.4
+
+-------------------------------------------------------
+
+Machine: {w | w has the same number of 0's and 1's} Nondeterministic
+Input String: 00110101000111
+Accept!
+Depth of tree: 121
+Number of transitions simulated: 174
+Average non-determinism per state: 1.43801652892562
+
+-------------------------------------------------------
+
+Machine: {w | w has the same number of 0's and 1's} Nondeterministic
+Input String: 00110101000111111110000011100010101010101010101011000000011111010101010101010101010101
+Accept!
+Depth of tree: 3841
+Number of transitions simulated: 5706
+Average non-determinism per state: 1.4855506378547254
+
+-------------------------------------------------------
+
+Machine: {w | w has the same number of 0's and 1's} Nondeterministic
+Input String: 001101010001111111100000111000101010101010101010110000000111110101010101010101010101011
+Reject!
+Depth of tree: 3841
+Number of transitions simulated: 5705
+
+-------------------------------------------------------

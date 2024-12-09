@@ -1,0 +1,39 @@
+// outputs copied from the terminal with the print state flag set as false
+
+-------------------------------------------------------
+
+Machine: a*b*c* Nondeterministic
+Input String: abc
+Accept!
+Depth of tree: 4
+Number of transitions simulated: 15
+Average non-determinism per state: 3.75
+
+-------------------------------------------------------
+
+Machine: a*b*c* Nondeterministic
+Input String: aaaaccccc
+Accept!
+Depth of tree: 10
+Number of transitions simulated: 37
+Average non-determinism per state: 3.7
+
+-------------------------------------------------------
+
+Machine: a*b*c* Nondeterministic
+Input String: bccccc
+Accept!
+Depth of tree: 7
+Number of transitions simulated: 14
+Average non-determinism per state: 2.0
+
+-------------------------------------------------------
+
+Machine: a*b*c* Nondeterministic
+Input String: bbbccccca
+Reject!
+Depth of tree: 8
+Number of transitions simulated: 19
+Average non-determinism per state: 2.375
+
+-------------------------------------------------------
